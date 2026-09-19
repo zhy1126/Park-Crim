@@ -1,0 +1,39 @@
+# Raw and analysis-ready datasets are intentionally not versioned.
+**/raw/
+**/data/
+**/artifacts/
+**/external_data/
+
+# Harmonized outputs are regenerated locally from untracked inputs.
+harmonized_comparison/results/
+harmonized_comparison/figures/
+harmonized_comparison/reports/
+harmonized_comparison/rendered_final/
+
+# Local rendering, caches, and environments.
+**/qa_render/
+**/__pycache__/
+**/*.py[cod]
+.venv/
+venv/
+.Rhistory
+.RData
+.Rproj.user/
+r_libs/
+node_modules/
+
+# Credentials and local configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+*.secret
+
+# Operating-system and editor files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

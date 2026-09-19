@@ -1,0 +1,7 @@
+iteration	timestamp	hypothesis	experiment	score	best_score	status	notes
+0	2026-08-07T00:00:00+08:00	baseline	initialization	0	0	baseline	No NYC research artifacts yet
+1	2026-08-07T19:20:00+08:00	official openings can be reproducibly identified	press-release audit and official polygon match	32	32	keep	9 main eligible events; 1 sensitivity-only phase opening
+2	2026-08-07T19:40:00+08:00	official NYPD data can populate a matched local-stack panel	API extraction, spatial clipping, and 500 m panel build	60	60	keep	385181 stack-case rows; 426 stack-grid units; all identities pass
+3	2026-08-07T20:00:00+08:00	Shanghai's positive association replicates in NYC	PPML, binary threshold, and dynamic event-study models	96	96	keep	no NYC estimate significant; total/non-theft/day pretrends reject
+4	2026-08-07T20:10:00+08:00	the NYC null is driven by one event or overlap	leave-one-out, strict openings, trends, and contamination exclusions	96	96	keep	static null robust; pretrend concern remains broader than one park
+5	2026-08-07T21:30:00+08:00	the cross-city evidence can be synthesized reproducibly	technical report, DOCX artifact QA, and final evaluator	100	100	keep	final report complete; A4 preview and OOXML structure verified
